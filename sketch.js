@@ -13,9 +13,12 @@ function setup() {
   wall=createSprite(1500,200,60,height/2);
   wall.shapecolour(80,80,80);
 
-  car.velocityX=speed;
+  car.velocityX=speed; 
 
   var canvas = createCanvas(1600,400);
+  deformation=0.5*weight*speed*speed/22500
+  deformation<100(0,255,0)
+
 }
 
 function draw() {
